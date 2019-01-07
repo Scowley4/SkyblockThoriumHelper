@@ -2,3 +2,4 @@ author = scowley4
 version = 0.1
 displayName = SkyblockThoriumHelper
 modReferences = ThoriumMod
+buildIgnore = *.swp
