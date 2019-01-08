@@ -1,4 +1,4 @@
-author = scowley4
+author = Psyclonic
 version = 0.1
 displayName = SkyblockThoriumHelper
 modReferences = ThoriumMod
