@@ -1,1 +1,9 @@
-SkyblockThoriumHelper is a mod that adds to fencedin's Skyblock mod for playthroughs with Thorium. Currently adds recipes to create the Aquatic Depths biome and drops for Magma Ore.
+SkyblockThoriumHelper is a mod that adds to fencedin's Skyblock mod for
+playthroughs with Thorium.
+
+Recipes
+ - Aquatic depths creation materials
+ - Blood Altar
+
+Drops
+ - Magma ore from Underworld NPCs
