@@ -1,2 +1,2 @@
 # SkyblockThoriumHelper
-Adds recipes to fencedin's Skyblock Mod to create Thorium's Aquatic Depths biome
+Adds to fencedin's Skyblock Mod for playthroughs with Thorium
