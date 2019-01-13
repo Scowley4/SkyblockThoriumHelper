@@ -42,6 +42,15 @@ namespace SkyblockThoriumHelper {
             recipe.SetResult(thoriumMod, "BrackMud", 25);
             recipe.AddRecipe();
 
+            // Recpie for the Blood Alter
+            recipe = new ModRecipe(this);
+            recipe.AddIngredient(ItemID.StoneBlock, 10);
+            recipe.AddIngredient(thoriumMod.ItemType("Blood"), 10);
+            recipe.AddIngredient(thoriumMod.ItemType("UnholyShards"), 5);
+            recipe.AddTile(TileID.WorkBenches);
+            recipe.SetResult(thoriumMod, "BloodAltar");
+            recipe.AddRecipe();
+
         }
     }
 }
