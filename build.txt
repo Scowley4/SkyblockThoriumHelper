@@ -1,5 +1,6 @@
 author = Psyclonic
-version = 0.1
+version = 0.2
 displayName = SkyblockThoriumHelper
 modReferences = ThoriumMod
 buildIgnore = *.swp
+homepage = https://github.com/Scowley4/SkyblockThoriumHelper
