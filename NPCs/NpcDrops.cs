@@ -9,7 +9,8 @@ namespace SkyblockThoriumHelper.NPCs {
             Mod thoriumMod = ModLoader.GetMod("ThoriumMod");
             Point center = npc.Center.ToTileCoordinates();
             if (center.Y >= Main.maxTilesY - 300){
-                if (Main.rand.Next(1) == 0){ // 50% chance
+                if (!npc.friendly && !npc.boss && npc.lifeMax > 10 &&
+                    Main.rand.Next(2) == 0) { // 50% chance
                     Item.NewItem(npc.getRect(),
                                  thoriumMod.ItemType("MagmaOre"),
                                  Main.rand.Next(3, 8));
