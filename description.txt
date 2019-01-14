@@ -1,5 +1,4 @@
-SkyblockThoriumHelper is a mod that adds to fencedin's Skyblock mod for
-playthroughs with Thorium.
+SkyblockThoriumHelper is a mod that adds to fencedin's Skyblock mod for playthroughs with Thorium.
 
 Recipes
  - Aquatic depths creation materials
