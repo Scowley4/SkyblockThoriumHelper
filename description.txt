@@ -6,3 +6,5 @@ Recipes
 
 Drops
  - Magma ore from Underworld NPCs
+
+See the code at: https://github.com/Scowley4/SkyblockThoriumHelper
