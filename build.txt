@@ -3,4 +3,4 @@ version = 0.2.3
 displayName = SkyblockThoriumHelper
 modReferences = ThoriumMod
 buildIgnore = *.swp
-homepage = https://forums.terraria.org/index.php?threads%2Fskyblockthoriumhelper.75571%2F&fbclid=IwAR15_CJnxs-oaqmHBdp0KRxhOdZ46TKyMon6k5dlb-H6Gp3tZHDTInNOC_o
+homepage = https://forums.terraria.org/index.php?threads/skyblockthoriumhelper.75571/
