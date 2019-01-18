@@ -23,7 +23,7 @@ namespace SkyblockThoriumHelper.NPCs {
             // Bag of Potential
             float bopChance = 0.0F;
             float baseChance = 0.03F;
-            if (NPC.downedBoss1) bopChance += baseChance;
+            if (NPC.downedBoss1) bopChance += 3*baseChance;
             if (NPC.downedBoss2) bopChance += baseChance;
             if (NPC.downedBoss3) bopChance += baseChance;
             if (NPC.downedSlimeKing) bopChance += baseChance;
