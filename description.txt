@@ -5,7 +5,7 @@ Recipes
  - Blood Altar
 
 Drops
- - Magma ore from Underworld NPCs
+ - Magma Ore from Underworld enemies
  - Bag of Potential now gets more common as you defeat more vanilla pre-hardmode bosses
 
 See the code at: https://github.com/Scowley4/SkyblockThoriumHelper
@@ -15,8 +15,11 @@ Feedback welcome at https://forums.terraria.org/index.php?threads/skyblockthoriu
 Version History
 
 v0.3.0
- - Added Bag of Potential drop chance increases for defeating vanilla pre-hardmode
+ - Added Bag of Potential drop chance increases for defeating vanilla pre-hardmode bosses
 
 v0.2.4
  - Updated mod website to Terraria forums.
+
+v0.2.0
+ - Added chance for underworld enemies to drop Magma Ore
 
