@@ -30,7 +30,7 @@ namespace SkyblockThoriumHelper.NPCs {
             if (NPC.downedQueenBee) bopChance += baseChance;
 
             if (!npc.friendly && !npc.boss && npc.lifeMax > 10 &&
-                Main.rand.NextFloat() < baseChance) {
+                Main.rand.NextFloat() < bopChance) {
 
                 Item.NewItem(npc.getRect(),
                              thoriumMod.ItemType("ThoriumBag"), 1); //Bag of Potential
