@@ -1,8 +1,11 @@
 SkyblockThoriumHelper is a mod that adds to fencedin's Skyblock mod for playthroughs with Thorium.
 
+Also adds recipes for a few vanilla items.
+
 Recipes
  - Aquatic depths creation materials
  - Blood Altar
+ - Gold, Ice, Ivy, Water chests
 
 Drops
  - Magma Ore from Underworld enemies
@@ -13,6 +16,9 @@ Feedback welcome at https://forums.terraria.org/index.php?threads/skyblockthoriu
 
 --------------------
 Version History
+
+v0.3.1
+ - Added recipes for Gold, Ice, Ivy, and Water Chests
 
 v0.3.0
  - Added Bag of Potential drop chance increases for defeating vanilla pre-hardmode bosses
