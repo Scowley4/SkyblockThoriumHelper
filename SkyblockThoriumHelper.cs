@@ -20,6 +20,16 @@ namespace SkyblockThoriumHelper {
                 ItemID.Tuna,
             });
             RecipeGroup.RegisterGroup("SkyblockThoriumHelper:BasicFish", group);
+
+
+            group = new RecipeGroup(() => Lang.misc[37] + " Ocean Material", new int[]
+            {
+                ItemID.Coral,
+                ItemID.Seashell,
+                ItemID.Starfish,
+            });
+            RecipeGroup.RegisterGroup("SkyblockThoriumHelper:OceanMaterial", group);
+
         }
         public override void AddRecipes() {
             ModRecipe recipe;
@@ -51,6 +61,42 @@ namespace SkyblockThoriumHelper {
             recipe.SetResult(thoriumMod, "BloodAltar");
             recipe.AddRecipe();
 
+            // Gold Chest
+            recipe = new ModRecipe(this);
+            recipe.AddIngredient(ItemID.GoldBrick, 8);
+            recipe.AddRecipeGroup("IronBar", 2);
+            recipe.AddTile(TileID.WorkBenches);
+            recipe.SetResult(ItemID.GoldChest);
+            recipe.AddRecipe();
+
+            // Ice Chest
+            recipe = new ModRecipe(this);
+            recipe.AddIngredient(ItemID.IceBrick, 8);
+            recipe.AddRecipeGroup("IronBar", 2);
+            recipe.AddTile(TileID.WorkBenches);
+            recipe.SetResult(ItemID.IceChest);
+            recipe.AddRecipe();
+
+            // Ivy Chest
+            recipe = new ModRecipe(this);
+            recipe.AddIngredient(ItemID.Vine, 2);
+            recipe.AddRecipeGroup("Wood", 8);
+            recipe.AddRecipeGroup("IronBar", 2);
+            recipe.AddTile(TileID.WorkBenches);
+            recipe.SetResult(ItemID.IvyChest);
+            recipe.AddRecipe();
+
+            // Water Chest
+            recipe = new ModRecipe(this);
+            recipe.AddRecipeGroup("Wood", 8);
+            recipe.AddRecipeGroup("SkyblockThoriumHelper:OceanMaterial", 2);
+            recipe.AddRecipeGroup("IronBar", 2);
+            recipe.AddTile(TileID.WorkBenches);
+            recipe.SetResult(ItemID.WaterChest);
+            recipe.AddRecipe();
+
+            // Web Covered Chest
+            // Living Wood Chest
         }
     }
 }
