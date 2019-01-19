@@ -19,7 +19,6 @@ namespace SkyblockThoriumHelper.NPCs {
                 }
             }
 
-
             // Bag of Potential
             float bopChance = 0.0F;
             float baseChance = 0.03F;
