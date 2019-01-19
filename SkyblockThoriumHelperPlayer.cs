@@ -15,21 +15,25 @@ namespace SkyblockThoriumHelper
             Mod thoriumMod = ModLoader.GetMod("ThoriumMod");
             var player = Main.player[Main.myPlayer];
 
-            /*  8.9% if fishing power == 100
-                roughly matches other biome crates although 
-                it's techinically outside the regular fishing % 
-                so it's a bit wonky     */
-            float baseChance = .00089f; //* (player.cratePotion ? 2 : 1);
+            /*  
+				8.9% if fishing power == 100
+                roughly matches other biome crates 
+			*/
+            float baseChance = .00089f; 
             float scarletCrateChance = baseChance * power;
             int crateChance = 10;
 
-            //Not really sure if this is an appropriate way to handle crate potions.
+            /*	
+				Change crate rate to 1/5 if player has a crate potion.
+				This doesn't behave the same really as other crates
+				but it's fairly close.	
+			*/
             if (player.cratePotion)
             {
                 crateChance /= 2;
             }
 
-            //if in cavern or underworld and water and 1/CrateChance
+            //if in cavern(3) or underworld and liquid is water and 1/CrateChance
             if (worldLayer >= 3 && liquidType == 0 && Main.rand.NextFloat() < scarletCrateChance && Main.rand.Next(crateChance) == 0)
             {
                 caughtType = thoriumMod.ItemType("ScarletCrate");
