@@ -5,7 +5,7 @@ Also adds recipes for a few vanilla items.
 Recipes
  - Aquatic depths creation materials
  - Blood Altar
- - Water Stone
+ - Rain Stone
  - Gold, Ice, Ivy, Water chests
 
 Drops
@@ -21,7 +21,7 @@ Version History
 
 v0.3.2
  - Added fishable Scarlet Crates in water in Cavern or Underworld
- - Added Water Stone recipe
+ - Added Rain Stone recipe
 
 v0.3.1
  - Added recipes for Gold, Ice, Ivy, and Water Chests
