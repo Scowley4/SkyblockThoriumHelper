@@ -44,12 +44,24 @@ namespace SkyblockThoriumHelper {
             recipe.SetResult(thoriumMod, "MarineRock", 50);
             recipe.AddRecipe();
 
-            // Recipe for brackish clump
+            // Recipe for Brackish Clump (BrackMud)
             recipe = new ModRecipe(this);
             recipe.AddRecipeGroup("SkyblockThoriumHelper:BasicFish");
             recipe.AddIngredient(ItemID.SandBlock, 25);
             recipe.needWater = true;
             recipe.SetResult(thoriumMod, "BrackMud", 25);
+            recipe.AddRecipe();
+
+            // Should we try to add a Depth Chest or add recipes for the Depth
+            // Chest items? For now, I will add Rain Stone, since it's useful
+            // for fishing especially
+            //
+            // Rain Stone
+            recipe = new ModRecipe(this);
+            recipe.AddIngredient(thoriumMod.ItemType("DepthScale"), 10);
+            recipe.AddIngredient(thoriumMod.ItemType("Aquaite"), 10);
+            recipe.needWater = true;
+            recipe.SetResult(thoriumMod, "RainStone");
             recipe.AddRecipe();
 
             // Recpie for the Blood Alter
