@@ -119,7 +119,8 @@ namespace SkyblockThoriumHelper {
             // Living Wood Chest
             recipe = new ModRecipe(this);
             recipe.AddIngredient(ItemID.Vine, 2);
-            recipe.AddRecipeGroup("Wood", 10);
+            recipe.AddRecipeGroup("Wood", 8);
+            recipe.AddRecipeGroup("IronBar", 2);
             recipe.AddTile(TileID.LivingLoom);
             recipe.SetResult(ItemID.LivingWoodChest);
             recipe.AddRecipe();
