@@ -109,7 +109,7 @@ namespace SkyblockThoriumHelper {
 
             // Web Covered Chest
             recipe = new ModRecipe(this);
-            recipe.AddIngredient(ItemID.Cobweb, 5);
+            recipe.AddIngredient(ItemID.Cobweb, 2);
             recipe.AddRecipeGroup("Wood", 8);
             recipe.AddRecipeGroup("IronBar", 2);
             recipe.AddTile(TileID.WorkBenches);
