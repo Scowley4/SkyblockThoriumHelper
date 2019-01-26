@@ -64,7 +64,7 @@ namespace SkyblockThoriumHelper {
             recipe.SetResult(thoriumMod, "RainStone");
             recipe.AddRecipe();
 
-            // Recpie for the Blood Alter
+            // Recpie for the Blood Altar
             recipe = new ModRecipe(this);
             recipe.AddIngredient(ItemID.StoneBlock, 10);
             recipe.AddIngredient(thoriumMod.ItemType("Blood"), 10);
@@ -108,7 +108,30 @@ namespace SkyblockThoriumHelper {
             recipe.AddRecipe();
 
             // Web Covered Chest
+            recipe = new ModRecipe(this);
+            recipe.AddIngredient(ItemID.Cobweb, 5);
+            recipe.AddRecipeGroup("Wood", 8);
+            recipe.AddRecipeGroup("IronBar", 2);
+            recipe.AddTile(TileID.WorkBenches);
+            recipe.SetResult(ItemID.WebCoveredChest);
+            recipe.AddRecipe();
+
             // Living Wood Chest
+            recipe = new ModRecipe(this);
+            recipe.AddIngredient(ItemID.Vine, 2);
+            recipe.AddRecipeGroup("Wood", 10);
+            recipe.AddTile(TileID.LivingLoom);
+            recipe.SetResult(ItemID.LivingWoodChest);
+            recipe.AddRecipe();
+
+            // Spear
+            recipe = new ModRecipe(this);
+            recipe.AddRecipeGroup("Wood", 5);
+            recipe.AddRecipeGroup("IronBar", 3);
+            recipe.AddTile(TileID.Anvils);
+            recipe.SetResult(ItemID.Spear);
+            recipe.AddRecipe();
+    
         }
     }
 }
