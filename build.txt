@@ -1,5 +1,5 @@
 author = Psyclonic and Wigginns
-version = 0.3.3
+version = 0.3.4
 displayName = SkyblockThoriumHelper
 modReferences = ThoriumMod
 buildIgnore = *.swp, *.csproj,* .user, obj\*, bin\*, .vs\*

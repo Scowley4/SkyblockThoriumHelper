@@ -132,7 +132,29 @@ namespace SkyblockThoriumHelper {
             recipe.AddTile(TileID.Anvils);
             recipe.SetResult(ItemID.Spear);
             recipe.AddRecipe();
-    
+
+            // Wand of Sparking
+            recipe = new ModRecipe(this);
+            recipe.AddRecipeGroup("Wood", 5);
+            recipe.AddIngredient(ItemID.Torch, 2);
+            recipe.AddIngredient(ItemID.Lens, 1);
+            recipe.SetResult(ItemID.WandofSparking);
+            recipe.AddRecipe();
+
+            // Honey Dispenser
+            recipe = new ModRecipe(this);
+            recipe.AddRecipeGroup("Wood", 10);
+            recipe.AddIngredient(ItemID.HoneyBlock, 50);
+            recipe.AddTile(TileID.WorkBenches);
+            recipe.SetResult(ItemID.HoneyDispenser);
+            recipe.AddRecipe();
+
+            // Spirit Droplet from Ectoplasm
+            recipe = new ModRecipe(this);
+            recipe.AddIngredient(ItemID.Ectoplasm);
+            recipe.AddTile(TileID.CrystalBall);
+            recipe.SetResult(thoriumMod, "SpiritDroplet", 2);
+            recipe.AddRecipe();
         }
     }
 }

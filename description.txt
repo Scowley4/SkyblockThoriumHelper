@@ -8,6 +8,10 @@ Recipes
  - Rain Stone
  - Gold, Ice, Ivy, Water, Web Covered, and Living Wood chests
  - Spear
+ - Wand of Sparking
+ - Honey Dispenser
+ - Ectoplasm -> Spirit Droplet
+
 
 Drops
  - Magma Ore from Underworld enemies
@@ -21,6 +25,11 @@ Created by Psyclonic and Wigginns
 
 --------------------
 Version History
+
+v0.3.4
+ - Added recipe for Wand of Sparking (needed for Fargo's Mod combination item)
+ - Added recipe for Honey Dispenser
+ - Added recipe to convert Ectoplasm to Spirit Droplets (hard to farm post-Plantera)
 
 v0.3.3
  - Added Web Covered and Living Wood chests
