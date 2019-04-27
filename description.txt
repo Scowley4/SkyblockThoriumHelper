@@ -11,7 +11,8 @@ Recipes
  - Wand of Sparking
  - Honey Dispenser
  - Ectoplasm -> Spirit Droplet
-
+ - Thorium Dungeon chests and items
+ - Magma-bound Fishing Line
 
 Drops
  - Magma Ore from Underworld enemies
@@ -28,10 +29,11 @@ Version History
 
 v0.3.5
  - Added recipes to create Thorium Dungeon Chest Items
-	- Fishbone, Pharaoh's Slab, Phoenix Staff
+   - Fishbone, Pharaoh's Slab, Phoenix Staff
  - Added recipes to create Thorium Dungeon Biome Chests
-	- Aquatic Depths Biome Chest, Desert Biome Chest, Underworld Biome Chest
-	
+   - Aquatic Depths Biome Chest, Desert Biome Chest, Underworld Biome Chest
+ - Added recipe for Magma-bound Fishing Line
+
 v0.3.4
  - Added recipe for Wand of Sparking (needed for Fargo's Mod combination item)
  - Added recipe for Honey Dispenser

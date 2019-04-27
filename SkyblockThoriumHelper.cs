@@ -156,11 +156,19 @@ namespace SkyblockThoriumHelper {
             recipe.SetResult(thoriumMod, "SpiritDroplet", 2);
             recipe.AddRecipe();
 
+            //Magma-bound Fishing Line
+            recipe = new ModRecipe(this);
+            recipe.AddIngredient(ItemID.HighTestFishingLine);
+            recipe.AddIngredient(ItemID.Fireblossom, 5);
+            recipe.AddIngredient(ItemID.HellstoneBar, 5);
+            recipe.AddTile(TileID.WorkBenches);
+            recipe.SetResult(thoriumMod, "MagmaBoundFishingLine");
+            recipe.AddRecipe();
 
             // ThoriumMod Dugeon Chest items:
-            // 
-            // Maybe should check if Plantera is dead first because you can't open the chests normally unless 
-            // you have defeated Plantera. However, the cost of farming a 0.04% droprate key outweighs this benefit, imo.        
+            //
+            // Maybe should check if Plantera is dead first because you can't open the chests normally unless
+            // you have defeated Plantera. However, the cost of farming a 0.04% droprate key outweighs this benefit, imo.
             //
             // Fishbone -Aquatic Depths Dungeon Chest Weapon
             recipe = new ModRecipe(this);
