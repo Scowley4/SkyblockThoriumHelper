@@ -26,6 +26,12 @@ Created by Psyclonic and Wigginns
 --------------------
 Version History
 
+v0.3.5
+ - Added recipes to create Thorium Dungeon Chest Items
+	- Fishbone, Pharaoh's Slab, Phoenix Staff
+ - Added recipes to create Thorium Dungeon Biome Chests
+	- Aquatic Depths Biome Chest, Desert Biome Chest, Underworld Biome Chest
+	
 v0.3.4
  - Added recipe for Wand of Sparking (needed for Fargo's Mod combination item)
  - Added recipe for Honey Dispenser

@@ -155,6 +155,61 @@ namespace SkyblockThoriumHelper {
             recipe.AddTile(TileID.CrystalBall);
             recipe.SetResult(thoriumMod, "SpiritDroplet", 2);
             recipe.AddRecipe();
+
+
+            // ThoriumMod Dugeon Chest items:
+            // 
+            // Maybe should check if Plantera is dead first because you can't open the chests normally unless 
+            // you have defeated Plantera. However, the cost of farming a 0.04% droprate key outweighs this benefit, imo.        
+            //
+            // Fishbone -Aquatic Depths Dungeon Chest Weapon
+            recipe = new ModRecipe(this);
+            recipe.AddIngredient(thoriumMod.ItemType("AquaticDepthsBiomeKey"), 1);
+            recipe.AddTile(thoriumMod.TileType("SoulForge"));
+            recipe.SetResult(thoriumMod, "Fishbone");
+            recipe.AddRecipe();
+
+            // Pharaoh's Slab - Desert Dungeon Chest Weapon
+            recipe = new ModRecipe(this);
+            recipe.AddIngredient(thoriumMod.ItemType("DesertBiomeKey"), 1);
+            recipe.AddTile(thoriumMod.TileType("SoulForge"));
+            recipe.SetResult(thoriumMod, "PharaohsSlab");
+            recipe.AddRecipe();
+
+            // Phoenix Staff - Underworld Dungeon Chest Weapon
+            recipe = new ModRecipe(this);
+            recipe.AddIngredient(thoriumMod.ItemType("UnderworldBiomeKey"), 1);
+            recipe.AddTile(thoriumMod.TileType("SoulForge"));
+            recipe.SetResult(thoriumMod, "PheonixStaff"); //Yes, they really mispelled it.
+            recipe.AddRecipe();
+
+            // Thorium Mod Dungeon Chests
+            // Aquatic Depths Dungeon Chest
+            recipe = new ModRecipe(this);
+            recipe.AddIngredient(thoriumMod.ItemType("AquaticDepthsBiomeKey"), 1);
+            recipe.AddRecipeGroup("Wood", 8);
+            recipe.AddRecipeGroup("IronBar", 2);
+            recipe.AddTile(TileID.WorkBenches);
+            recipe.SetResult(thoriumMod, "AquaticDepthsBiomeChest");
+            recipe.AddRecipe();
+
+            // Desert Dungeon Chest Weapon
+            recipe = new ModRecipe(this);
+            recipe.AddIngredient(thoriumMod.ItemType("DesertBiomeKey"), 1);
+            recipe.AddRecipeGroup("Wood", 8);
+            recipe.AddRecipeGroup("IronBar", 2);
+            recipe.AddTile(TileID.WorkBenches);
+            recipe.SetResult(thoriumMod, "DesertBiomeChest");
+            recipe.AddRecipe();
+
+            // Underworld Dungeon Chest Weapon
+            recipe = new ModRecipe(this);
+            recipe.AddIngredient(thoriumMod.ItemType("UnderworldBiomeKey"), 1);
+            recipe.AddRecipeGroup("Wood", 8);
+            recipe.AddRecipeGroup("IronBar", 2);
+            recipe.AddTile(TileID.WorkBenches);
+            recipe.SetResult(thoriumMod, "UnderworldBiomeChest");
+            recipe.AddRecipe();
         }
     }
 }
