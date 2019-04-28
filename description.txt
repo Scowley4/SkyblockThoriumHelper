@@ -27,6 +27,9 @@ Created by Psyclonic and Wigginns
 --------------------
 Version History
 
+v0.3.6
+ - Changed Magma-bound Fishing Line recipe to use Magma Bars
+
 v0.3.5
  - Added recipes to create Thorium Dungeon Chest Items
    - Fishbone, Pharaoh's Slab, Phoenix Staff

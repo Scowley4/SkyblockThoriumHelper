@@ -160,7 +160,8 @@ namespace SkyblockThoriumHelper {
             recipe = new ModRecipe(this);
             recipe.AddIngredient(ItemID.HighTestFishingLine);
             recipe.AddIngredient(ItemID.Fireblossom, 5);
-            recipe.AddIngredient(ItemID.HellstoneBar, 5);
+            // Magma Core = Magma Bar
+            recipe.AddIngredient(thoriumMod.ItemType("MagmaCore"), 10);
             recipe.AddTile(TileID.WorkBenches);
             recipe.SetResult(thoriumMod, "MagmaBoundFishingLine");
             recipe.AddRecipe();
